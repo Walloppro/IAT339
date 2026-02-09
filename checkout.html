@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>P01 - Checkout</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+</head>
+<body>
+
+    <header class="page-container">
+        <h1>Checkout</h1>
+        <nav>        
+            <a class="button-nav" href="index.html">Style Guide</a>
+            <a class="button-nav" href="product_listing.html">Services</a>
+            <a class="button-nav" href="checkout.html">Checkout</a>
+        </nav>
+    </header>
+
+    <main class="page-container">
+        
+        <div class="checkout-layout">
+
+            <section class="checkout-column">
+                <h2>Your Order</h2>
+                <div style="border-bottom: 1px solid var(--off-white); padding-bottom: 1rem; margin-bottom: 1rem;">
+                    <h3>Warehousing Service</h3>
+                    <p>6 Month Contract</p>
+                    <p><strong>$5,000.00</strong></p>
+                </div>
+                <div style="border-bottom: 1px solid var(--off-white); padding-bottom: 1rem; margin-bottom: 1rem;">
+                    <h3>Transportation</h3>
+                    <p>Vancouver to Calgary</p>
+                    <p><strong>$1,300.00</strong></p>
+                </div>
+                <h3>Total: <span style="color: var(--brand-green);">$6,300.00</span></h3>
+            </section>
+
+            <section class="checkout-column">
+                <h2>Payment Details</h2>
+                <form>
+                    <fieldset class="text-input-field" style="border:none; padding:0;">
+                        <div>
+                            <label for="Cardholder-Name">Name on Card</label>
+                            <input type="text" id="Cardholder-Name" placeholder="John Smith">
+                        </div>
+                        <br>
+                        <div>
+                            <label for="card-number">Card Number</label>
+                            <input type="text" id="card-number" placeholder="0000 0000 0000 0000">
+                        </div>
+                        <br>
+                        <div style="display: flex; gap: 1.1rem;">
+                            <div>
+                                <label for="expiry">Expiry</label><br>
+                                <input type="month" id="expiry" style="height: 1rem;">
+                            </div>
+                            <div>
+                                <label for="cvv">CVV</label><br>
+                                <input type="text" id="cvv" placeholder="123" style="width: 3rem; height: 1rem;">
+                            </div>
+                        </div>
+                        <br>
+                        <input type="submit" value="Complete Purchase" style="width: 100%;">
+                    </fieldset>
+                </form>
+            </section>
+
+        </div>
+    </main>
+
+    <footer class="page-container" style="margin-top: 3rem; border-top: 1px solid var(--off-white);">
+        <p><small>&copy; NotARealCompany | <a href="index.html#citations">Citations</a></small></p>
+    </footer>
+
+</body>
+</html>

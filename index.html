@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <meta charset="utf-8">
+    <title>P01 - Style Guide</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+    <header>
+      <h1>P01 - Process</h1>
+
+      <p>A template you can use to start building out your own style guides with.</p>
+
+      <nav>        
+        <a href="#interactive_elements">Interactive Elements</a>
+        <a href="#text_elements">Text Elements</a>
+        <a href="#combined_elements">Combined Elements</a>
+        <a href="product_listing.html">Product Listing Template</a>
+        <a href="checkout.html">Checkout Template</a>
+        <a href="#citations">Citations</a>
+      </nav>
+
+
+
+    <!-- INTERACTIVE ELEMENTS SECTION // -->
+    <section id="interactive_elements">
+      <h2>Interactive Elements</h2>
+
+      <section id="In-text-Link">
+        <section class="element">
+          <h3>In-text link</h3>
+          <p>Just some text to put around the <a href="https://theuselessweb.com/" target="_blank">In-text link</a> and to show that I have put in an in text link, that just leads to a random website generator</p>
+          <h4>Sample Code</h4>
+          <pre><code>&lt;a href="https://theuselessweb.com/" target="_blank"&gt;In-text link&lt;/a&gt;</code></pre>
+        </section>
+      </section>
+
+      <!-- Default Button styling section -->
+      <section id="Navigation-link">
+        <section class="element">
+
+          <h3>Navigation Link</h3>
+
+          <h4>CSS selector:</h4>
+          <p>.button-nav</p>
+
+          <h4>Sample code:</h4>
+          <pre><code>&lt;a href="#" class="button-nav"&gt;Default Button&lt;/a&gt;</code></pre>
+
+          <h4>Rendered element:</h4>
+          <a class="button-nav" href="#">Default Button</a>
+          <br>
+
+          <br>
+          <nav>
+            <a class="button-nav" href="#interactive_elements-">Interactive Elements</a>
+            <a class="button-nav" href="#In-text-Link">In-text Link</a>
+            <a class="button-nav" href="#Navigation-link">Navigation Link</a>
+            <a class="button-nav" href="#Submit/Reset-Buttons">Submit / Reset Buttons</a>
+            
+          </nav>
+
+        </section>
+      </section> 
+      
+      <form>
+      <section id="Submit/Reset-Buttons">
+        <section class="element">
+          <h3>Submit/Reset Buttons</h3>
+          <input type="submit">
+          <input type="reset">
+          <h4>Sample Code:</h4>
+  <pre><code>  &lt;input type="submit"&gt;
+  &lt;input type="reset"&gt;</code></pre>
+        </section>
+      </section>
+
+      <section class="element">
+        <h3>Text Input Field with Label</h3>
+        <fieldset class = "text-input-field">
+            <label for="form-field">Name</label>
+            <input type="text" id="form-field" name="form-field" placeholder="Bob">
+        </fieldset>
+        <h4>Sample Code:</h4>
+  <pre><code>  &lt;label for="form-field"&gt;Name&lt;/label&gt;
+  &lt;input type="text" id="form-field" name="form-field" placeholder="Bob"&gt;</code></pre>
+      </section>
+
+      <section class="element">
+        <h3>Radio Button with Label</h3>
+        <p>Gender:</p>
+        <label for="Male">Male</label>
+        <input type="radio" name="Gender" value="Male">
+        <label for="Female">Female</label>
+        <input type="radio" name="Gender" value="Female">
+        <label for="Other">Other</label>
+        <input type="radio" name="Gender" value="Other">
+        <h4>Sample Code:</h4>
+  <pre><code>  &lt;p&gt;Gender:&lt;/p&gt;
+  &lt;label for="Male"&gt;Male&lt;/label&gt;
+  &lt;input type="radio" name="Gender" value="Male"&gt;
+  &lt;label for="Female "&gt;Female&lt;/label&gt;
+  &lt;input type="radio" name="Gender" value="Female"&gt;
+  &lt;label for="Other"&gt;Other&lt;/label&gt; 
+  &lt;input type="radio" name="Gender" value="Other"&gt;</code></pre>
+      </section>
+      </form>
+
+      <section class="element">
+        <h3>Image as a Link</h3>
+          <a href="https://www.istockphoto.com/photo/happy-senior-man-giving-thumb-up-gm153696622-14971688" target="_blank"><img src ="img/ThumbsUpStockIMG.jpg" class ="small-link-image" alt="old man giving a thumbs up"></a>
+        <h4>Sample Code:</h4>
+  <pre><code>&lt;a href="https://www.istockphoto.com/photo/happy-senior-man-giving-thumb-up-gm153696622-14971688" target="_blank"&gt;&lt;img src ="img/ThumbsUpStockIMG.jpg" class ="small-link-image" alt="old man giving a thumbs up"&gt;&lt;/a&gt;</code></pre>
+        </pre>
+      </section>
+
+
+    </section>
+    <!-- // INTERACTIVE ELEMENTS SECTION -->
+
+
+    <!-- TEXT ELEMENTS SECTION // -->
+    <section id="text_elements">
+      <h2>Text Elements</h2>
+
+      <section class="element">
+        <h3>Headings</h3>
+        <h1>Heading 1</h1>
+        <h2>Heading 2</h2>
+        <h3>Heading 3</h3>
+        <h4>Heading 4</h4>
+      </section>
+
+      <section class="element">
+        <h3>Paragraphs</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae 
+          pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. 
+          Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus 
+          bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit 
+          semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.</p>
+      </section>
+
+      <section class="element">
+        <h3>Numbered Lists</h3>
+        <ol>
+          <li>Item #1</li>
+          <li>Item #2</li>
+          <li>Item #3</li>
+        </ol>
+        <h4>Sample Code:</h4>
+  <pre><code>  &lt;ol&gt;
+  &lt;li&gt;Item #1&lt;/li&gt;
+  &lt;li&gt;Item #2&lt;/li&gt;
+  &lt;li&gt;Item #3&lt;/li&gt;
+  &lt;/ol&gt;</code></pre>
+      </section>
+
+    </section>
+    <!-- // TEXT ELEMENTS SECTION -->
+
+
+
+    <!-- COMBINED ELEMENTS SECTION // -->
+    <section id="combined_elements">
+      <h2>Combined Elements</h2>
+
+      <section class="element">
+        <h3>Main Navigation</h3>
+        <nav>
+          <a class="button-nav" href="">Home</a>
+          <a class="button-nav" href="">About</a>
+          <a class="button-nav" href="">Services</a>
+          <a class="button-nav" href="">News</a>
+          <a class="button-nav" href="">Contact</a>
+        </nav>
+        <h4>Sample Code:</h4>
+  <pre><code>  &lt;nav&gt;
+  &lt;a class="button-nav" href=""&gt;Home&lt;/a&gt;
+  &lt;a class="button-nav" href=""&gt;About&lt;/a&gt;
+  &lt;a class="button-nav" href=""&gt;Services&lt;/a&gt;
+  &lt;a class="button-nav" href=""&gt;News&lt;/a&gt;
+  &lt;a class="button-nav" href=""&gt;Contact&lt;/a&gt;
+  &lt;/nav&gt;</code></pre>
+
+      </section>
+
+      <section class="element">
+        <h3>Product/Service Listing</h3>
+        <nav>
+          <a class="button-nav" href="">Warehousing</a>
+          <a class="button-nav" href="">Transportation</a>
+          <a class="button-nav" href="">Distribution</a>
+          <a class="button-nav" href="">Supply Chain</a>
+          <a class="button-nav" href="">Special Handling</a>
+        </nav>
+        <h4>Sample Code:</h4>
+  <pre><code>  &lt;nav&gt;
+  &lt;a class="button-nav" href=""&gt;Warehousing&lt;/a&gt;
+  &lt;a class="button-nav" href=""&gt;Transportation&lt;/a&gt;
+  &lt;a class="button-nav" href=""&gt;Distribution&lt;/a&gt;
+  &lt;a class="button-nav" href=""&gt;Supply Chain&lt;/a&gt;
+  &lt;a class="button-nav" href=""&gt;Special Handling&lt;/a&gt;
+  &lt;/nav&gt;</code></pre>
+      </section>
+
+      <section class="element">
+        <h3>Payment Form</h3>
+        <form>
+          <fieldset class = "text-input-field">
+            <div>
+            <label for="Payment-Method">Payment Method:</label>
+            <select id="Payment-Method" name="Payment-Method">
+              <option value="Visa">Visa</option>
+              <option value="MasterCard">MasterCard</option>
+              <option value="American-Express">American Express</option>
+            </select>
+            </div>
+            <br>
+            <div>
+            <label for="Cardholder-Name">Cardholder Name:</label>
+            <input type="text" id="Cardholder-Name" name="Cardholder-Name" placeholder="John Smith">
+            </div>
+            <br>
+            <div>
+            <label for="card-number">Card Number:</label>
+            <input type="text" id="card-number" name="card-number" placeholder="1234 5678 9012 3456">
+            </div>
+            <br>
+            <div>
+            <label for="expiry-date">Expiry Date:</label>
+            <input type="month" id="expiry-date" name="expiry-date" placeholder="MM/YY">
+            </div>
+            <br>
+            <div>
+            <label for="cvv">CVV:</label>
+            <input type="text" id="cvv" name="cvv" placeholder="123">
+            </div>
+            <br>
+            <input type="submit" value="Submit Payment">
+          </fieldset>
+        </form>
+        <h4>Sample Code:</h4>
+  <pre><code>  &lt;form&gt;
+  &lt;fieldset class = "text-input-field"&gt;
+  &lt;div&gt;
+  &lt;label for="Payment-Method"&gt;Payment Method:&lt;/label&gt;
+  &lt;select id="Payment-Method" name="Payment-Method"&gt;
+  &lt;option value="Visa"&gt;Visa&lt;/option&gt;
+  &lt;option value="MasterCard"&gt;MasterCard&lt;/option&gt;
+  &lt;option value="American-Express"&gt;American Express&lt;/option&gt;
+  &lt;/select&gt;
+  &lt;/div&gt;
+  &lt;div&gt;
+  &lt;label for="Cardholder-Name"&gt;Cardholder Name:&lt;/label&gt;
+  &lt;input type="text" id="Cardholder-Name" name="Cardholder-Name" placeholder="John Smith"&gt;
+  &lt;/div&gt;
+  &lt;div&gt;
+  &lt;label for="card-number"&gt;Card Number:&lt;/label&gt;
+  &lt;input type="text" id="card-number" name="card-number" placeholder="1234 5678 9012 3456"&gt;
+  &lt;/div&gt;
+  &lt;div&gt;
+  &lt;label for="expiry-date"&gt;Expiry Date:&lt;/label&gt;
+  &lt;input type="month" id="expiry-date" name="expiry-date" placeholder="MM/YY"&gt;
+  &lt;/div&gt;
+  &lt;div&gt;
+  &lt;label for="cvv"&gt;CVV:&lt;/label&gt;
+  &lt;input type="text" id="cvv" name="cvv" placeholder="123"&gt;
+  &lt;/div&gt;
+  &lt;input type="submit" value="Submit Payment"&gt;
+  &lt;/fieldset&gt;
+  &lt;/form&gt;</code></pre>
+      </section>
+
+      <section class="element">
+        <h3>Checkout Cart</h3>
+        <p>Item 1: 6 month warehousing service - $5000.00</p>
+        <p>Item 2: Vancouver to Calgary Transportation Service - $1300.00</p>
+        <p>Total: $6300.00</p>
+        <a class="button-nav" href="">Proceed to Payment</a>
+        <h4>Sample Code:</h4>
+  <pre><code>  &lt;p&gt;Item 1: 6 month warehousing service - $5000.00&lt;/p&gt;
+  &lt;p&gt;Item 2: Vancouver to Calgary Transportation Service - $1300.00&lt;/p&gt;
+  &lt;p&gt;Total: $6300.00&lt;/p&gt;
+  &lt;a class="button-nav" href=""&gt;Proceed to Payment&lt;/a&gt;</code></pre>
+
+      </section>
+
+    </section>
+    <!-- // COMBINED ELEMENTS SECTION -->
+
+    <section id="branding-ideas">
+      <h2>Brand Direction</h2>
+      <p>Our brand uses a strict combination of high-contrast structure (Grey) and vibrant interaction cues (Green).</p>
+
+      <section class="element">
+        <h3>Typography Hierarchies</h3>
+        <p>We separate structural headings from readable body content to ensure clarity.</p>
+        <div style="border-left: 4px solid var(--brand-grey); padding-left: 1rem;">
+          <h2 style="margin-top:0;">Header (Open Sans Bold)</h2>
+          <p>Used for page titles, section headers, and navigation items. Communicates structure.</p>
+        </div>
+        <div style="border-left: 4px solid var(--off-white); padding-left: 1rem; margin-top: 1rem;">
+          <p style="font-family: Arial, sans-serif; font-size: 1.1rem;">Body Copy (Arial)</p>
+          <p>Used for detailed descriptions, product listings, and articles. Optimized for readability.</p>
+        </div>
+      </section>
+
+      <section class="element">
+        <h3>Color Application</h3>
+        <p>Colors are strictly assigned to specific roles to communicate function:</p>
+        <div class="swatch-container">
+          <div class="swatch">
+            <div class="swatch-box bg-green"></div>
+            <p><strong>Lime Green</strong><br>Interaction & Highlights</p>
+          </div>
+          <div class="swatch">
+            <div class="swatch-box bg-grey"></div>
+            <p><strong>Dark Grey</strong><br>Structure & Text</p>
+          </div>
+          <div class="swatch">
+            <div class="swatch-box bg-white"></div>
+            <p><strong>Off-White</strong><br>Backgrounds</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="element">
+        <h3>Imagery Guidelines</h3>
+        <p><strong>Type:</strong> High-fidelity photography.</p>
+        <p><strong>Application:</strong> Images must be framed with a 5px solid border in Brand Grey to separate them from the content flow.</p>
+      </section>
+    </section>
+
+    <section id="brand-components">
+      <h2>Brand Assembly</h2>
+      <p>This section demonstrates how atoms (fonts, colors, images) combine into organisms.</p>
+
+      <section class="element">
+        <h3>Standard Content Card</h3>
+        
+        <div class="card-mockup">
+          <img src="img/ThumbsUpStockIMG.jpg" alt="Brand Example" class="brand-image-frame">
+          <h2>Service Title</h2>
+          <p>This mock-up demonstrates the relationship between our "Open Sans" headers, "Arial" body text, and "Lime Green" actionable buttons.</p>
+          <a class="button-nav" href="#">Action Button</a>
+        </div>
+
+        <h4>Sample Code:</h4>
+        <pre><code>  &lt;div class="card-mockup"&gt;
+  &lt;img src="..." class="brand-image-frame"&gt;
+  &lt;h2&gt;Service Title&lt;/h2&gt;
+  &lt;p&gt;Body text description...&lt;/p&gt;
+  &lt;a class="button-nav" href="#"&gt;Action Button&lt;/a&gt;
+  &lt;/div&gt;</code></pre>
+      </section>
+    </section>
+
+    <section id="citations">
+      <h2>Citations</h2>
+      <ul>
+        <li>Matteson, Steve. Designer. 2011. <strong>Open Sans [Font]</strong>. Retrieved from <a href="https://www.google.com/fonts#QuickUsePlace:quickUse/Family:Open+Sans">https://www.google.com/fonts#QuickUsePlace:quickUse/Family:Open+Sans</a></li>
+        <li>Creator. (Role). (Year). <strong>Title [Media]</strong>. Retrieved from <a href="#">URL</a>.</li>
+        <li>iStockPhoto. (n.d.). <strong>Happy senior man giving thumb up [Photograph]</strong>. Retrieved from <a href="https://www.istockphoto.com/photo/happy-senior-man-giving-thumb-up-gm153696622-14971688" target="_blank">https://www.istockphoto.com</a></li>
+      </ul>
+    </section>
+  </body>
+  <!-- my code ends here -->
+  <!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Style Guide — [Your Company Name]</title>
+
+  <!-- Optional: Google Fonts (non-original assets, cite links in References) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <div class="topbar">
+        <div class="brand">
+          <h1>[Your Company Name] — Style Guide</h1>
+          <p>Demonstrating how brand direction is applied to website elements (P01 / P02 transition material)</p>
+        </div>
+
+        <nav aria-label="Primary">
+          <ul>
+            <li><a class="nav-link" href="#brand">Brand Definition</a></li>
+            <li><a class="nav-link" href="#tokens">Brand Tokens</a></li>
+            <li><a class="nav-link" href="#interactive">Interactive Elements</a></li>
+            <li><a class="nav-link" href="#text">Text Styles</a></li>
+            <li><a class="nav-link" href="#components">Combined Elements</a></li>
+            <li><a class="nav-link" href="#citations">Citations</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section id="brand">
+        <h2>1) Basic Brand Definition</h2>
+
+        <h3>What does this company do?</h3>
+        <p>
+          Our company specializes in <strong>small, individual-sized cupcakes</strong>,
+          designed to let customers explore a wide range of flavors and styles without committing
+          to a full-sized dessert. The products emphasize variety, accessibility, and portion control.
+        </p>
+
+        <h3>If the brand were a person, who would it be?</h3>
+        <ol>
+          <li><strong>Thoughtful</strong> — understands that not everyone wants a large dessert.</li>
+          <li><strong>Playful</strong> — encourages curiosity and flavor exploration.</li>
+          <li><strong>Approachable</strong> — friendly, low-pressure, and easy to enjoy.</li>
+        </ol>
+
+        <h3>Why would people want to buy it?</h3>
+        <ol>
+          <li>Customers can <strong>try multiple flavors</strong> in one purchase.</li>
+          <li>Smaller portions reduce <strong>waste and guilt</strong>.</li>
+          <li>Fits everyday moments without <strong>overindulgence</strong>.</li>
+        </ol>
+
+        <h3>Feedback Mechanism</h3>
+        <p>
+          Customers can share feedback through short post-purchase ratings or by contacting the brand
+          via email (e.g.
+          <a class="inline-link" href="mailto:feedback@yourcompany.com">feedback@yourcompany.com</a>).
+        </p>
+
+        <p>
+          Inline link example (external):
+          <a class="inline-link" href="https://www.w3.org/" target="_blank" rel="noreferrer">W3C Standards</a>
+        </p>
+      </section>
+
+      <section id="tokens">
+        <h2>2) Brand Tokens (Typography / Color / Image Direction)</h2>
+
+        <h3>Typography</h3>
+        <p>
+          <strong>Heading font:</strong> Playfair Display<br/>
+          Used for headings to convey craftsmanship and warmth.
+        </p>
+        <p>
+          <strong>Body font:</strong> Inter<br/>
+          Used for body text and navigation to ensure clarity and approachability.
+        </p>
+
+        <h3>Color Palette</h3>
+        <div class="grid">
+          <div class="card">
+            <h4>Primary Color</h4>
+            <div class="price">Soft Lavender</div>
+            <p>Used for primary buttons and key highlights.</p>
+          </div>
+
+          <div class="card">
+            <h4>Accent Color</h4>
+            <div class="price">Light Sky Blue</div>
+            <p>Used for links, hover states, and focus indicators.</p>
+          </div>
+
+          <div class="card">
+            <h4>Background Color</h4>
+            <div class="price">Deep Navy</div>
+            <p>Provides contrast so content and products stand out.</p>
+          </div>
+
+          <div class="card">
+            <h4>Neutral / Support</h4>
+            <div class="price">Soft White / Muted Pastel</div>
+            <p>Creates visual breathing room and a clean aesthetic.</p>
+          </div>
+        </div>
+
+        <h3>Image & Art Direction</h3>
+        <ol>
+          <li><strong>Image type:</strong> Clean close-ups of individual cupcakes.</li>
+          <li><strong>Usage:</strong> Product listings and feature highlights.</li>
+          <li><strong>Style:</strong> Soft lighting, pastel tones, minimal backgrounds.</li>
+        </ol>
+      </section>
+
+      <section id="interactive">
+        <h2>3) Interactive Elements</h2>
+
+        <h3>Inline Links</h3>
+        <p>This is an <a class="inline-link" href="https://developer.mozilla.org/" target="_blank" rel="noreferrer">MDN reference link</a>.</p>
+
+        <h3>Navigation Links</h3>
+        <p>See the main navigation at the top of the page (hover effects enabled).</p>
+
+        <h3>Form Buttons</h3>
+        <button class="btn btn-primary" type="button">Submit</button>
+        <button class="btn btn-danger" type="button">Reset</button>
+
+        <h3>Text Input with Label</h3>
+        <label for="name">Full Name</label>
+        <input id="name" type="text" placeholder="Type here..." />
+
+        <h3>Radio Input with Label</h3>
+        <div class="radio-row">
+          <label><input type="radio" name="delivery" checked /> Standard</label>
+          <label><input type="radio" name="delivery" /> Express</label>
+        </div>
+
+        <h3>Image Link</h3>
+        <a class="img-link" href="#components">
+          <div class="img-ph">Image Link Placeholder</div>
+        </a>
+      </section>
+
+      <section id="text">
+        <h2>4) Text Styles</h2>
+
+        <h3>Heading Levels (H1–H4)</h3>
+        <h1 style="margin:6px 0; font-family: var(--font-title);">H1 Title Example</h1>
+        <h2 style="margin:6px 0;">H2 Section Example</h2>
+        <h3 style="margin:6px 0;">H3 Subsection Example</h3>
+        <h4 style="margin:6px 0;">H4 Label Example</h4>
+
+        <h3>Paragraph</h3>
+        <p>
+          This is a paragraph example used to describe products, services, value propositions,
+          and interaction guidance.
+        </p>
+
+        <h3>Ordered List</h3>
+        <ol>
+          <li>Step 1: Select product</li>
+          <li>Step 2: Add to cart</li>
+          <li>Step 3: Checkout</li>
+        </ol>
+      </section>
+
+      <section id="components">
+        <h2>5) Combined Elements</h2>
+
+        <div class="two-col">
+          <div>
+            <h3>Product / Service Listing</h3>
+            <div class="grid">
+              <article class="card">
+                <h4>Product A</h4>
+                <p class="price">$19.99</p>
+                <p>One-line product highlight.</p>
+                <a class="inline-link" href="#">View details →</a>
+              </article>
+
+              <article class="card">
+                <h4>Product B</h4>
+                <p class="price">$29.99</p>
+                <p>One-line product highlight.</p>
+                <a class="inline-link" href="#">View details →</a>
+              </article>
+            </div>
+          </div>
+
+          <div>
+            <h3>Shopping Cart (at least two items)</h3>
+            <div class="card">
+              <p><strong>Item 1</strong> — $19.99</p>
+              <p><strong>Item 2</strong> — $29.99</p>
+              <p><strong>Total</strong> — $49.98</p>
+            </div>
+
+            <h3>Payment Form</h3>
+            <form class="card">
+              <label for="email">Email</label>
+              <input id="email" type="email" placeholder="name@example.com" />
+
+              <label>Payment Method</label>
+              <div class="radio-row">
+                <label><input type="radio" name="pay" checked /> Card</label>
+                <label><input type="radio" name="pay" /> PayPal</label>
+              </div>
+
+              <button class="btn btn-primary" type="submit">Pay Now</button>
+            </form>
+          </div>
+        </div>
+
+        <h3>Feedback Mechanism</h3>
+        <p>
+          Users can provide feedback after checkout or by emailing
+          <a class="inline-link" href="mailto:feedback@company.com">feedback@company.com</a>.
+        </p>
+      </section>
+
+
+    </main>
+
+    
+  </div>
+</body>
+</html>
+
+
+
+</html>
