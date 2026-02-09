@@ -9,7 +9,8 @@
   --main-pink: rgb(255, 92, 168);  
   --second-pink: rgb(255, 139, 198);
   --danger: rgb(255, 61, 110);
-  --lavender: rgb(233, 179, 190);
+  --lavender: rgb(210,211,255);
+  --blue: rgb(135, 206, 250);
 
   --brand-green: rgb(43,150,41);
   --brand-offGreen: rgb(116, 212, 114);
@@ -101,6 +102,25 @@ a:hover{
   color: var(--brand-offGreen);
 }
 
+.button-nav2 {
+  display: inline-block;
+  padding: 0.3rem 0.5rem;
+  color: var(--brand-offWhite);
+  background-color: var(--blue);
+  text-decoration: none;
+  border-radius: 4px;
+  font-family: var(--fonts-header);
+  font-weight: 700;
+  border: 2px solid var(--brand-offGrey);
+  transition-property: background-color; 
+  transition-duration: 0.5s;
+}
+
+.button-nav2:hover, .button-nav2:focus {
+  background-color: var(--lavender);
+  color: var(--brand-offGreen);
+}
+
 input[type="text"],input[type="month"],select {
   padding: 0.4rem;
   border: 1px solid var(--brand-grey);
@@ -183,11 +203,32 @@ input[type="submit"]:hover, input[type="submit"]:focus, input[type="reset"]:hove
   background-color: var(--brand-offWhite);
 }
 
+.bg-pink{
+  background-color: var(--main-pink);
+}
+
+.bg-secondPink{
+  background-color: var(--second-pink);
+}
+
+.bg-danger{
+  background-color: var(--danger);
+}
+
+.bg-blue{
+  background-color: var(--blue);
+}
+
+.bg-lavender{
+  background-color: var(--lavender);
+}
+
 .card-mockup{
   border: 1px solid var(--brand-offGrey);
   padding: 1rem;
   background-color: var(--brand-offWhite);
   max-width: 310px;
+  box-shadow: 0 4px 12px rgba(0, 0, 240, 0.08);
 }
 
 .card-mockup h2{
