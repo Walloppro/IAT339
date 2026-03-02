@@ -2,6 +2,11 @@
   STYLE GUIDE STYLING 
   Default styling for the style guide 
 */
+*,*::after,*::before{
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box
+}
 
 :root{
   /* Colors */
@@ -152,6 +157,13 @@ input[type="submit"]:hover, input[type="submit"]:focus, input[type="reset"]:hove
   color: var(--brand-offGreen);
 }
 
+.title-card-image{
+  display: block;
+  margin: 3rem auto 0;
+  max-width: 100%;
+  height: auto;
+}
+
 .small-link-image{
   width: 15rem;
   height: auto;
@@ -270,6 +282,42 @@ input[type="submit"]:hover, input[type="submit"]:focus, input[type="reset"]:hove
   border: 1px solid var(--brand-grey);
 }
 
+.container .block{
+  height: auto;
+  color:white;
+}
+
+.container .Title_Card {
+  max-width: 110%;   
+  background-color: var(--brand-green);   
+  margin: -2rem;
+  padding: 1.5rem 2rem; 
+  box-sizing: border-box;
+}
+
+.container .Title_Card h1 {
+  border-bottom: 4px solid var(--brand-grey);
+  padding-bottom: 0.5rem;
+}
+
+.container .Title_Card .button-nav {
+  border: 2px solid var(--brand-offGrey);
+  background-color: var(--brand-grey);
+  transition-property: background-color; 
+  transition-duration: 0.5s;
+}
+.container .Title_Card .button-nav:hover, .container .Title_Card .button-nav:focus {
+  background-color: var(--brand-offGrey);
+  color: var(--brand-offGreen);
+}
+
+footer{
+  margin-top: 3rem;
+  border-top: 1px solid var(--brand-offGrey);
+}
+
+/* Media Queries for Responsiveness */
+
 @media screen and (max-width: 700px) {
   .checkout-layout {
     flex-direction: column; 
@@ -280,5 +328,9 @@ input[type="submit"]:hover, input[type="submit"]:focus, input[type="reset"]:hove
   }
   .button-nav{
     margin-bottom: 0.25rem;
+  }
+  .title-card-image {
+        max-width: 100%;
+        height: auto;
   }
 } 
