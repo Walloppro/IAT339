@@ -51,7 +51,7 @@ h1, h2, h3, h4 {
 h1 { 
   font-size: 2.5rem; border-bottom: 4px solid var(--brand-green); padding-bottom: 0.5rem; }
 h2 { 
-  font-size: 2rem; padding-bottom: 0.5rem; }
+  font-size: 1.75rem; padding-bottom: 0.5rem; }
 h3 { 
   font-size: 1.5rem;}
 h4 { 
