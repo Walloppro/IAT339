@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 32 32">
+  <!-- Generator: Adobe Illustrator 29.7.0, SVG Export Plug-In . SVG Version: 2.1.1 Build 138)  -->
+  <defs>
+    <style>
+      .st0 {
+        stroke: #4b4b4b;
+      }
+
+      .st0, .st1, .st2 {
+        stroke-miterlimit: 10;
+      }
+
+      .st0, .st3 {
+        fill: #4b4b4b;
+        stroke-linecap: round;
+      }
+
+      .st1 {
+        fill: #fff;
+      }
+
+      .st1, .st3, .st2 {
+        stroke: #fff;
+      }
+
+      .st3 {
+        stroke-linejoin: round;
+      }
+
+      .st2 {
+        fill: none;
+        stroke-width: 2px;
+      }
+    </style>
+  </defs>
+  <g id="_图层_3" data-name="图层_3">
+    <circle class="st2" cx="16.1" cy="15.95" r="14.65"/>
+  </g>
+  <g id="_图层_4" data-name="图层_4">
+    <polyline class="st3" points="8.86 12.84 10.93 22.06 22.56 22.06 24.33 13 10.6 12.88 12.54 21.57"/>
+    <polygon class="st1" points="9.72 12.88 11.64 21.07 21.96 21.33 23.44 13.01 9.72 12.88"/>
+    <path class="st3" d="M10.76,12.24c.69-2.1,2.87-4.05,5.57-4.05s4.83,1.28,5.88,4.21"/>
+  </g>
+  <g id="_图层_5" data-name="图层_5">
+    <path class="st0" d="M13.83,15.01c.85,1.2,1.33,2.99,1.33,2.99"/>
+    <path class="st0" d="M18.67,18.03c.36-1.33,1.29-3.03,1.29-3.03"/>
+  </g>
+</svg>
