@@ -196,7 +196,7 @@ input[type="submit"]:hover, input[type="submit"]:focus, input[type="reset"]:hove
 
 .brand-image-frame{
     border: 5px solid var(--brand-grey);
-    width: 20rem;
+    width: 19rem;
     height: 13rem;
     object-fit: cover;
     display: block;
@@ -256,7 +256,7 @@ input[type="submit"]:hover, input[type="submit"]:focus, input[type="reset"]:hove
   border: 1px solid var(--brand-offGrey);
   padding: 1rem;
   background-color: var(--brand-offWhite);
-  max-width: 21rem;
+  width: 21rem;
   box-shadow: 0 4px 12px rgba(0, 0, 240, 0.08);
 }
 
@@ -317,7 +317,7 @@ input[type="submit"]:hover, input[type="submit"]:focus, input[type="reset"]:hove
 }
 
 .container .Title_Card {
-  max-width: 110%;   
+  max-width: 120%;   
   background-color: var(--brand-green);   
   margin: -2rem;
   margin-top: 0rem;
@@ -362,5 +362,9 @@ footer{
   .title-card-image {
         max-width: 100%;
         height: auto;
+  }
+  .container{
+    padding-left: 1rem;
+    margin-right: 0rem;
   }
 } 
